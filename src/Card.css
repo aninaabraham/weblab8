@@ -1,0 +1,44 @@
+.card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-container {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image {
+  position: relative;
+  text-align: center;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.heart-icon {
+  display: block;
+  margin: 10px auto; /* Center the icon below the image */
+  cursor: pointer;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.title-content {
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #666;
+}
